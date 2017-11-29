@@ -1,0 +1,16 @@
+ID: 19650416
+Name: Jon Cryer
+Age: 52
+Gender: Male
+Medical Issue: Gunshot
+Wait: 53 Minutes
+
+Note:
+Medical Procedure:
+Big Surgery1: 10000 SEK
+Used Medicine:
+Morphine: 200 SEK
+Vicodin: 400 SEK
+Morphine: 200 SEK
+
+Stay At Hospital

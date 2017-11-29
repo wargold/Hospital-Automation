@@ -1,0 +1,16 @@
+ID: 19940911
+Name: War
+Age: 22
+Gender: Male
+Medical Issue: Asthma
+Wait: 80 Minutes
+
+Note:
+Medical Procedure:
+Send to specialists1: 500 SEK
+Used Medicine:
+Throat lozenge: 100 SEK
+Morphine: 200 SEK
+Vicodin: 400 SEK
+
+Send Home
