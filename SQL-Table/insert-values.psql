@@ -1,0 +1,99 @@
+-- Medical issues
+INSERT INTO medical_issue VALUES(0, 'Allergy');
+INSERT INTO medical_issue VALUES(1, 'Asthma');
+INSERT INTO medical_issue VALUES(2, 'Cold');
+INSERT INTO medical_issue VALUES(3, 'Gunshot');
+INSERT INTO medical_issue VALUES(4, 'Stabbed');
+INSERT INTO medical_issue VALUES(5, 'Acne');
+INSERT INTO medical_issue VALUES(6, 'Boil');
+INSERT INTO medical_issue VALUES(7, 'Concussion');
+INSERT INTO medical_issue VALUES(8, 'Palpitation');
+INSERT INTO medical_issue VALUES(9, 'Severe Cough');
+
+-- Medical Procedure
+INSERT INTO medical_procedure VALUES(01,'Vaccine1', 200,0);
+INSERT INTO medical_procedure VALUES(02,'Vaccine2', 200,0);
+INSERT INTO medical_procedure VALUES(03,'Vaccine3', 200,0);
+
+INSERT INTO medical_procedure VALUES(11,'Send to specialists1', 500,1);
+INSERT INTO medical_procedure VALUES(12,'Send to specialists2', 500,1);
+INSERT INTO medical_procedure VALUES(13,'Send to specialists3', 500,1);
+
+INSERT INTO medical_procedure VALUES(21,'Resting1', 100,2);
+INSERT INTO medical_procedure VALUES(22,'Resting2', 100,2);
+INSERT INTO medical_procedure VALUES(23,'Resting3', 100,2);
+
+INSERT INTO medical_procedure VALUES(31,'Big Surgery1', 10000,3);
+INSERT INTO medical_procedure VALUES(32,'Big Surgery2', 10000,3);
+INSERT INTO medical_procedure VALUES(33,'Big Surgery3', 10000,3);
+
+INSERT INTO medical_procedure VALUES(41,'Mid Surgery1', 2000,4);
+INSERT INTO medical_procedure VALUES(42,'Mid Surgery2', 2000,4);
+INSERT INTO medical_procedure VALUES(43,'Mid Surgery3', 2000,4);
+
+INSERT INTO medical_procedure VALUES(51,'Send to Dermatologist1', 100,5);
+INSERT INTO medical_procedure VALUES(52,'Send to Dermatologist2', 100,5);
+INSERT INTO medical_procedure VALUES(53,'Send to Dermatologist3', 100,5);
+
+INSERT INTO medical_procedure VALUES(61,'Small Surgery1', 2500,6);
+INSERT INTO medical_procedure VALUES(62,'Small Surgery2', 2500,6);
+INSERT INTO medical_procedure VALUES(63,'Small Surgery3', 2500,6);
+
+INSERT INTO medical_procedure VALUES(71,'XRay1', 1200,7);
+INSERT INTO medical_procedure VALUES(72,'XRay2', 1200,7);
+INSERT INTO medical_procedure VALUES(73,'XRay3', 1200,7);
+
+INSERT INTO medical_procedure VALUES(81,'ECG1', 500,8);
+INSERT INTO medical_procedure VALUES(82,'ECG2', 500,8);
+INSERT INTO medical_procedure VALUES(83,'ECG3', 500,8);
+
+INSERT INTO medical_procedure VALUES(91,'Send to Otorhinolaryngology1', 1500,9);
+INSERT INTO medical_procedure VALUES(92,'Send to Otorhinolaryngology2', 1500,9);
+INSERT INTO medical_procedure VALUES(93,'Send to Otorhinolaryngology3', 1500,9);
+
+-- Teams
+INSERT INTO team VALUES(0, 'Team Batman');
+INSERT INTO team VALUES(1, 'Team Deadpool');
+INSERT INTO team VALUES(2, 'Team SpiderMan');
+INSERT INTO team VALUES(3, 'Team SuperMan');
+INSERT INTO team VALUES(4, 'Team IronMan');
+
+-- Team specialization
+INSERT INTO specialization VALUES(7,0);
+INSERT INTO specialization VALUES(9,0);
+INSERT INTO specialization VALUES(5,0);
+
+INSERT INTO specialization VALUES(6,1);
+INSERT INTO specialization VALUES(8,1);
+INSERT INTO specialization VALUES(2,1);
+
+INSERT INTO specialization VALUES(9,2);
+INSERT INTO specialization VALUES(0,2);
+INSERT INTO specialization VALUES(1,2);
+
+INSERT INTO specialization VALUES(4,3);
+INSERT INTO specialization VALUES(3,3);
+INSERT INTO specialization VALUES(8,3);
+
+INSERT INTO specialization VALUES(2,4);
+INSERT INTO specialization VALUES(9,4);
+INSERT INTO specialization VALUES(5,4);
+
+-- Medicine
+INSERT INTO medicine VALUES(0,'Morphine', 200);
+INSERT INTO medicine VALUES(1,'Vicodin', 400);
+INSERT INTO medicine VALUES(2,'Throat lozenge', 100);
+
+--Patient
+INSERT INTO patient VALUES(19651103, 'Charlie Sheen', 51, 'Male', 1, 83, 3, 3);
+INSERT INTO patient VALUES(19650416, 'Jon Cryer', 52, 'Male', 5, 53, 3, 3);
+INSERT INTO patient VALUES(19520607, 'Liam Neeson', 64, 'Male', 2, 20, 1, 2);
+INSERT INTO patient VALUES(19850326, 'Keira Knightley', 32, 'Female', 5, 15, 5, 0);
+INSERT INTO patient VALUES(19491028, 'Caitlyn Jenner', 67, 'Other', 4, 30, 6, 1);
+INSERT INTO patient VALUES(19740130, 'Christian Bale', 43, 'Male', 2, 73, 8, 3);
+INSERT INTO patient VALUES(19330314, 'Michael Caine', 84, 'Male', 5, 10, 1, 2);
+INSERT INTO patient VALUES(19841022, 'Scarlett Johansson', 32, 'Female', 2, 50, 2, 1);
+INSERT INTO patient VALUES(19870825, 'Blake Lively', 29, 'Female', 5, 3, 3, 3);
+INSERT INTO patient VALUES(19740820, 'Amy Adams', 42, 'Female', 1, 8, 9, 4);
+INSERT INTO patient VALUES(19741111, 'Leonardo DiCaprio', 42, 'Female', 1, 8, 9, 4);
+INSERT INTO patient VALUES(19681012, 'Hugh Jackman', 48, 'Female', 1, 8, 9, 4);
